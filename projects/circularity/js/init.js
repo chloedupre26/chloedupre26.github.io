@@ -75,6 +75,7 @@ var init = function (window) {
         //   game.checkCirclePosition(2);
         //   game.checkCirclePosition(3);
         //   game.checkCirclePosition(4);
+ 
 
             // TODO 8 : Iterate over the array
            for(var i = 0; i < circles.length; i++){
@@ -104,7 +105,7 @@ var init = function (window) {
             if(circle.y > canvas.hieght){
                 circle.y = 0
             }
-            if(circle.y < canvas.hieght){
+            if(circle.y < 0){
                 circle.y = canvas.hight
             }
 
