@@ -102,11 +102,11 @@ var init = function (window) {
             }
             
             // TODO 5 : YOUR CODE STARTS HERE //////////////////////
-            if(circle.y > canvas.hieght){
+            if(circle.y > canvas.height){
                 circle.y = 0
             }
             if(circle.y < 0){
-                circle.y = canvas.hight
+                circle.y = canvas.height
             }
 
             // YOUR TODO 5 CODE ENDS HERE //////////////////////////
